@@ -1,0 +1,18 @@
+	let text = "Ayiti se yon BEL PEYI";
+
+let text_tab = text.split(" ");
+
+// for (let i of text_tab) {
+//   for (let v of i) {
+//     i.indexOf(v) === 0
+//       ? text_Cap.push(v.toUpperCase())
+//       : text_Cap.push(v.toLowerCase());
+//   }
+// }
+for (let i in text_tab) {
+
+		text_tab[i]=text_tab[i].charAt(0).toUpperCase() + text_tab[i].slice(1).toLowerCase();
+
+
+}
+console.log(text_tab.join(" "))
