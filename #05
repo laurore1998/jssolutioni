@@ -1,0 +1,32 @@
+let text= "5 45 123 12"
+let text_p=text.split(" ")
+num=0
+let tot=[]
+
+for(let i of text_p){
+	let z=0;
+	
+	if(i.length>1){
+		
+		for(let v of i){
+
+			z+=parseInt(v)
+		}
+		tot.push(z)
+	}else{
+
+			tot.push(parseInt(i))
+		}
+
+	
+	
+
+
+}
+let sum=tot[0];
+for (var i = 1; i < tot.length; i++) {
+	
+		sum*=tot[i]
+
+		
+}
