@@ -1,4 +1,4 @@
 let number;
 let result;
-number%4==0 ? result="ok" : result="Nok";
+number%4==0 ? result="Nok" : result="ok";
 
