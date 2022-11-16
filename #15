@@ -1,0 +1,3 @@
+let a='hidden mokache endpass'
+a=a.split(" ");
+a=a[a.length-2];
