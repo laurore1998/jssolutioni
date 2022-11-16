@@ -1,0 +1,20 @@
+nb = [13, 4, 20, 15, 6, 29, 20];
+
+sup=nb[0]
+
+for(let i of nb){
+
+	if(sup<i){
+
+		sup=i;
+	}
+}
+
+inf=nb[0]
+for(let i of nb){
+
+	if(inf>i){
+
+		inf=i;
+	}
+}
