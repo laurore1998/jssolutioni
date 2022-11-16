@@ -1,11 +1,11 @@
-a=[ 0, 1, 2, 3, 4 ]
+let a=[ 0, 1, 2, 3, 4 ];
 let first;
 let second;
 let third;
 let forr;
 
 
-for(i in a){
+for(let i in a){
 
 	if(i==0){
 
