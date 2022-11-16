@@ -1,0 +1,2 @@
+let a="nicodem laurore";
+newText=a.split(" ").join("");
