@@ -1,0 +1,17 @@
+let a="nicodeme";
+
+let voyel="aeiouy"
+
+for (let i in a) {
+	
+	if(voyel.includes(a[a.indexOf(a[i])+1])){
+
+		//console.log(a[i]+"voyel devan")
+		a=a.replace(a[i],'*');
+
+
+
+	}
+
+
+}
