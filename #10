@@ -1,0 +1,3 @@
+let a="web-insecure;34829sjdfnsj32984madsdkj";
+
+a=a.split(";").shift()
